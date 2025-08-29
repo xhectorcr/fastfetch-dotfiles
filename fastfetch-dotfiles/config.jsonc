@@ -1,0 +1,194 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source":"~/.config/fastfetch/logo.txt",
+    "padding": {
+      "left": 4
+    },
+    "color": {
+      "1":"white"
+    }
+  },
+  "modules":[
+    {
+      "type":"custom",
+      "format":"╔═══════════════════════════════════════════════╗",
+      "outputColor":"white"
+    },
+    {
+      "type":"title",
+      "format":"║         Hector Manuelle Contreras Ramos       ║",
+      "outputColor":"yellow",
+      "padding": {
+        "top":10
+      }
+    },
+    {
+      "type":"custom",
+      "format":"╠═══════════════════════════════════════════════╣",
+      "outputColor":"white"
+    },
+    "break",
+    {
+      "type":"kernel",
+      "key":"┏ ",
+      "outputColor":"yellow",
+      "keyColor":"white",
+      "format":"[ {1} ]"
+    },
+    {
+      "type":"os",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"{2}"
+    },
+    {
+      "type":"de",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"{2}"
+    },
+    {
+      "type":"wm",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"{2}"
+    },
+    {
+      "type":"cursor",
+      "key":"┗━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"{1}"
+    },
+    "break",
+    {
+      "type":"custom",
+      "key":"┏ ",
+      "outputColor":"yellow",
+      "keyColor":"white",
+      "format":"[ Terminal ]"
+    },
+    {
+      "type":"terminal",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"{1}"
+    },
+    {
+      "type":"shell",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"{1}"
+    },
+    {
+      "type":"version",
+      "key":"┗━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"{1}"
+    },
+    "break",
+    {
+      "type":"custom",
+      "format":"[ Hardware ]",
+      "key":"┏ ",
+      "keyColor":"white",
+      "outputColor":"yellow"
+    },
+    {
+      "type":"display",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"{1}x{2}"
+    },
+    {
+      "type":"cpu",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"{1}"
+    },
+    {
+      "type":"gpu",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"{2}"
+    },
+    {
+      "type":"memory",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format": "{1}/{2}"
+    },
+    {
+      "type":"command",
+      "shell":"/bin/zsh",
+      "text":"python ~/.config/fastfetch/disk.py",
+      "key":"┗━ ",
+      "outputColor":"blue",
+      "keyColor":"white"
+    },
+    "break",
+    {
+      "type":"custom",
+      "format":"[ Redes sociales ]",
+      "key":"┏ ",
+      "keyColor":"white",
+      "outputColor":"yellow"
+    },
+    {
+      "type":"custom",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"Instagram: @xhectorcr11"
+    },
+    {
+      "type":"custom",
+      "key":"┣━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"X: @xhectorcr"
+    },
+    {
+      "type":"custom",
+      "key":"┗━ ",
+      "outputColor":"blue",
+      "keyColor":"white",
+      "format":"GitHub: @xhectorcr"
+    },
+    "break",
+    {
+      "type":"custom",
+      "format":"╠═══════════════════════════════════════════════╣",
+      "outputColor":"white",
+      "key":" "
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 18,
+      "symbol":"circle"
+    },
+    {
+      "type":"custom",
+      "format":"╚═══════════════════════════════════════════════╝",
+      "outputColor":"white"
+    }
+  ],
+  "display": {
+    "separator": " • ",
+    "color": {
+      "separator":"white"
+    }
+  }
+}
+
